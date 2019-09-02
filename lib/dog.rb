@@ -3,6 +3,7 @@ class Dog
   @@all = []
   @@print_all = []
   @@name
+  @@clear_all
   
   attr_accessor :name
   
@@ -25,7 +26,8 @@ class Dog
     end
   end
 
- 
+  def self.clear_all
+    @@all.clear
 
 end
 
